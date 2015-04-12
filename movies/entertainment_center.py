@@ -28,3 +28,5 @@ star_wars = media.Movie ("Star Wars Episove IV",
 movies = [toy_story, avatar, titanic, ratatouille, school_of_rock, star_wars]
 fresh_tomatoes.open_movies_page(movies)
 #print(titanic.storyline)
+#print(media.Movie.VALID_RATINGS)
+#print(media.Movie.__doc__)
