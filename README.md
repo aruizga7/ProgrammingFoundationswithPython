@@ -12,3 +12,5 @@
 You see the result of the first project here: 
 [Udacity Movies](http://udacitymovies.mybluemix.net/)
 
+<center>![alt tag](https://github.com/aruizga7/ProgrammingFoundationswithPython/blob/master/movies/screenshot.PNG?raw=true)</center>
+
