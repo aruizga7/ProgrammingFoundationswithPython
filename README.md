@@ -12,5 +12,11 @@
 You see the result of the first project here: 
 [Udacity Movies](http://udacitymovies.mybluemix.net/)
 
+You can push it to IBM Bluemix or Cloud Foundry with the following command:
+
+```
+cf push -b https://github.com/cloudfoundry-community/nginx-buildpack <appname>
+```
+
 <center>![alt tag](https://github.com/aruizga7/ProgrammingFoundationswithPython/blob/master/movies/screenshot.PNG?raw=true)</center>
 
