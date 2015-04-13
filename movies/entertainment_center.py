@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+#Addid movies to our catalog using the Class Movie
 toy_story = media.Movie ("Toy Story",
                          "A story of a bout and his toys that come to life",
                          "http://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg",
@@ -25,7 +26,10 @@ star_wars = media.Movie ("Star Wars Episove IV",
                          "First release in the Star Wars franchise",
                          "http://upload.wikimedia.org/wikipedia/en/thumb/8/87/StarWarsMoviePoster1977.jpg/220px-StarWarsMoviePoster1977.jpg",
                          "https://www.youtube.com/watch?v=9gvqpFbRKtQ")
+#Creating an array with all the movies we want to add to our website                         
 movies = [toy_story, avatar, titanic, ratatouille, school_of_rock, star_wars]
+#Calling the script that will create the HTML site based on our 'movies' array
+
 fresh_tomatoes.open_movies_page(movies)
 #print(titanic.storyline)
 #print(media.Movie.VALID_RATINGS)
