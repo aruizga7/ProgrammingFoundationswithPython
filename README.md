@@ -18,5 +18,13 @@ You can push it to IBM Bluemix or Cloud Foundry with the following command:
 cf push -b https://github.com/cloudfoundry-community/nginx-buildpack <appname>
 ```
 
+To run the Movie Website project, from command line, run:
+
+```
+python entertainment_center.py
+```
+
+This will generate the HTML page and then load it in browser. Enjoy!
+
 <center>![alt tag](https://github.com/aruizga7/ProgrammingFoundationswithPython/blob/master/movies/screenshot.PNG?raw=true)</center>
 
